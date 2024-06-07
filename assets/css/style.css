@@ -23,6 +23,13 @@ section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.shadow-on-hover{
+    transition: all 0.3s;
+
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
 /* Btn */
 .btn{
     border-radius: 0;
@@ -95,4 +102,20 @@ section{
 .intro-text p{
     max-width: 500px;
     margin: 16px auto 0 auto;
+}
+/*Menu*/
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color:#222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba( 0, 0, 0, 0.1) ;
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #F58d17;
+    color: #ffffff;
+}
+.menu-item .stars{
+    color:#F58d17;
 }
