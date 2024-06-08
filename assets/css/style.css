@@ -119,3 +119,21 @@ section{
 .menu-item .stars{
     color:#F58d17;
 }
+
+/*Features */
+#features{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/jason-leung-poI7DelFiVA-unsplash.jpg);
+}
+.feature{
+    border: 2px solid rgba(255,255,255,0.2);
+}
+.feature .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F58d17;
+    color: #fff;
+    font-size: 28px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
