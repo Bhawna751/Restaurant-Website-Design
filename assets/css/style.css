@@ -161,5 +161,17 @@ section{
     color: #F58d17;
 }
 .review .carousel-indicators{
-    margin-bottom: -1rem;
+    margin-bottom: 8rem;
+}
+/*reservation*/
+#reservation .form-control{
+    border-radius: 0;
+}
+#reservation .form-control:focus{
+    box-shadow: none;
+    border-color: #F58d17;
+}
+#reservation input.form-control{
+    height: 47px;
+    
 }
