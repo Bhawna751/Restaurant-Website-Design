@@ -219,3 +219,29 @@ section{
         width:100%;
     }
 }
+/*footer*/
+footer{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/zakaria-zayane-0uAVsDcyD0M-unsplash.jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+}
+footer p,footer a{
+    color:rgba(255,255,255,0.75)
+}
+footer .social-links a{
+    font-weight: normal;
+    font-size: 30px;
+    margin-right: 10px;
+}
+footer img{
+    max-width:175px
+}
+
+.footer-bottom{
+    padding-top: 30px;
+    border-top:1px solid rgba(255,255,255,0.4);
+}
